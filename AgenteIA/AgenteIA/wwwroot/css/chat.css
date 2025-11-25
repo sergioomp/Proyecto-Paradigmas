@@ -1,0 +1,83 @@
+﻿/*  CONTENEDOR GENERAL  */
+.inner {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*  LISTA GENERAL DEL CHAT  */
+.chat-entry {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.chat-ebtry {
+    padding: 0;
+}
+
+/*  TARJETAS DEL CHAT  */
+.card {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.card-body p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.user-msg,
+.bot-msg {
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.user-msg {
+    background: #d9f2ff;
+    border: 1px solid #b4e1ff;
+}
+
+.bot-msg {
+    background: #f2f2f2;
+    border: 1px solid #dcdcdc;
+}
+
+/*  AVATARES  */
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/*  FORMULARIO  */
+.chat-input {
+    margin-top: 20px;
+}
+
+    .chat-input textarea {
+        width: 100%;
+        resize: none;
+        border-radius: 8px;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .chat-input button {
+        background: #0078ff;
+        color: white;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .chat-input button:hover {
+            background: #005fcc;
+        }
+
+/*  SCROLL DEL CHAT  */
+#chatBox {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
