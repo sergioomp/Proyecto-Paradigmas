@@ -20,7 +20,7 @@ namespace AgenteIA.Controllers
         public IActionResult Chat()
         {
             var messages = HttpContext.Session.GetObject<List<ChatMessage>>("ChatHistory") ?? new List<ChatMessage>();
-            return View("~/Views/Chat/chat.cshtml", messages);
+            return View("~/Views/Chat/Chat.cshtml", messages);
         }
 
         // POST: /Agente/Send
